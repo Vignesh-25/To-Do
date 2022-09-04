@@ -23,7 +23,6 @@ window.addEventListener('load',()=>{
         tasks_div.appendChild(task_content_div);
 
         let task_input=document.createElement("input");
-        task_input.classList.add("text");
         task_input.type="text";
         task_input.value=task_data;
         task_input.setAttribute("readonly",true);
