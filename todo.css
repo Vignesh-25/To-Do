@@ -1,0 +1,16 @@
+div.tasks{
+    display: flex;
+}
+#heading, #show-todo{
+	max-width: 800px;
+	margin:auto;
+    background-color:azure;
+    text-align: center;
+}
+.tasks{
+    justify-content: space-evenly;
+}
+
+.actions{
+    justify-content:center;
+}
